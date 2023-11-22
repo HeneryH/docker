@@ -1,9 +1,0 @@
-users:
-    jflynn:
-        password: $argon2id$v=19$m=65536,t=3,p=4$7+EXqBcZXjJzK/DbYFNOhg$WN7iHj1CvyIrPoF6RhKZBeGTNnXEDpknkJAN4xgrSN0
-        displayname: Joe Flynn
-        email: jjflynn22@gmail.com
-        groups:
-            - admins
-            - dev
-        disabled: false
