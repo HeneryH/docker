@@ -66,8 +66,8 @@ storage:
 
 notifier:
   smtp:
-    username: postmaster@flynnconsultingllc.com
-    password: 0102760f117563740a391cd817b3eaf2-5d2b1caa-ae21db36
+    username: xxx
+    password: xxx
     host: smtp.mailgun.org
     port: 587
     sender: postmaster@flynnconsultingllc.com
