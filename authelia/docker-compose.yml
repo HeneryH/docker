@@ -11,6 +11,7 @@ services:
     container_name: authelia
     volumes:
       - ./authelia:/config
+#      - /var/lib/docker/volumes/authelia/_data:/config
     networks:
       - net
     labels:
@@ -36,6 +37,7 @@ services:
     container_name: redis
     volumes:
       - ./redis:/data
+#      - /var/lib/docker/volumes/redis/_data:/data
     networks:
       - net
     expose:
@@ -49,6 +51,7 @@ services:
     container_name: traefik
     volumes:
       - ./traefik:/etc/traefik
+#      - /var/lib/docker/volumes/traefik/_data:/etc/traefik
       - /var/run/docker.sock:/var/run/docker.sock
     environment:
       - TZ=$TZ
